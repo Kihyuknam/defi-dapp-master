@@ -1,0 +1,58 @@
+{
+  "name": "drizzle-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truffle-box/drizzle-box.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truffle-box/drizzle-box/issues"
+  },
+  "homepage": "https://github.com/truffle-box/drizzle-box#readme",
+  "dependencies": {
+    "@drizzle/react-plugin": "^1.5.3",
+    "@drizzle/store": "^1.5.3",
+    "@openzeppelin/contracts": "^2.5.1",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@rimble/icons": "^1.2.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.1.0",
+    "bl": "^2.2.1",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^3.1.9-1",
+    "eslint": "^6.6.0",
+    "http": "0.0.1-security",
+    "jest": "^24.9.0",
+    "navi": "^0.14.0",
+    "os": "^0.1.2",
+    "react": "^17.0.2",
+    "react-countup": "^6.1.0",
+    "react-dom": "^17.0.2",
+    "react-loader-spinner": "^5.0.6",
+    "react-navi": "^0.14.4",
+    "react-scripts": "^5.0.0",
+    "rimble-ui": "^0.14.0",
+    "stream": "0.0.2",
+    "styled-components": "^5.3.3",
+    "truffle-plugin-verify": "^0.5.20",
+    "web3": "^1.6.1",
+    "webpack": "^4.42.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.7.0"
+  }
+}
